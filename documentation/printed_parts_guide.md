@@ -29,6 +29,41 @@ We recommend printing all parts with standard Voron style settings:
 - Wall count: 4, use 5 walls on [[a,s]_BBProV25fl_Roller[x2]](../STLs/ZBeltDrive/[a,s]_BBProV25fl_Roller[x2].stl)
 - Solid top/bottom layers: 5
 
+### Bambu Studio Project Files (3MF)
+Ready-to-slice Bambu Studio projects are included for each group of parts. The STL files above and in the part list below are unchanged, so use those if you have a different printer or slicer.
+
+The projects are set up for a Bambu Lab P1S with a 0.4mm nozzle and the High Temp Plate, using the settings recommended above:
+
+- Layer height: 0.2mm
+- Line width: 0.4mm on every line type, including the first layer
+- Infill: 40% grid
+- Walls: 4 (5 on the rollers)
+- Top/bottom layers: 5
+- Supports: only on [s] parts (tree, auto)
+- Brim: none
+
+|Project|Plates|Parts|
+|-----|-----|-----
+|[BBPro_Frame](../STLs/Frame/BBPro_Frame.3mf)|2|Side-A + Side-B; scraper + Screenmount (supports)
+|[BBPro_GantryY](../STLs/Gantry/Y/BBPro_GantryY.3mf)|1|Tensioner body, idler holder, tensioner nut, LinearRailReplacement V26, LDO toolboard mount
+|[BBPro_GantryX](../STLs/Gantry/X/BBPro_GantryX.3mf)|1|X-Carraige, motor mount, Xrail mounts A/B, Xrail under-mounts A/B, pivot arm (2x), X pivot clamp (2x)
+|[BBPro_Carriage_Bambu](../STLs/Gantry/Carriage/Bambu/BBPro_Carriage_Bambu.3mf)|1|YCar SideA (V26), SideB, BeltHolder, Fan
+|[BBPro_PrintBelt](../STLs/PrintBelt/BBPro_PrintBelt.3mf)|1|Frame-A/B, Nut (2x), Pusher-A/B
+|[[HT]_BBProV25fl_Underbed-notforbed-FOR_LDO_HEATBED](../STLs/ZBeltDrive/[HT]_BBProV25fl_Underbed-notforbed-FOR_LDO_HEATBED.3mf)|2|Plate 1: rollers (2x, 5 walls, supports), Roller_ZGear, Nema17_ZGear (2x). Plate 2: LDO heatbed underbed in ABS
+
+Filament in the projects:
+
+- Most parts use PETG: 250°C nozzle, 80°C bed, part cooling fan up to 70%. PLA also works for every part except the Z gears and the underbed (see above).
+- The LDO heatbed underbed is on its own plate in ABS: 260°C first layer then 270°C, 90°C bed, auxiliary fan off. A plate can only have one bed temperature, so ABS and PETG parts are kept on separate plates.
+
+Printing tips:
+
+- PETG plates: prop the P1S lid open to avoid heat creep and to keep part cooling effective.
+- ABS plates: keep the lid and door closed, let the bed heat the chamber for about 10 minutes before printing, use glue stick on the plate, and print in a ventilated area.
+- Large flat parts (frame sides, underbed) can lift at the corners. If they do, add a brim to just that part.
+- Check that each part lies flat on the plate before slicing. Bambu Studio may reset the print or filament settings to its saved presets when a project is saved, so confirm the settings above are still in place before printing.
+- Parts marked [i] (X-Carraige, Xrail under-mounts) need heat-set inserts after printing.
+
 
 ## Part List
 |Name|Image|Area|Color|Supports|Heat-Sets|Material|Description
