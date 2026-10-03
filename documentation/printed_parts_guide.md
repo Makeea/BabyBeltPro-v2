@@ -62,8 +62,8 @@ Filaments used:
 
 |Filament|Used for|Store|Manufacturer|Profile|
 |-----|-----|-----|-----|-----
-|Ambrosia PLA, Rainbow Rush, 1kg|PLA projects (A1)|[West3D](https://west3d.com/products/ambrosia-pla-filament-of-the-gods-1kg-bambu-ams-friendly-cardboard-spools-premium-3d-printing-filament?variant=46039719018708) (not found on Amazon)|[Ambrosia Filament](https://ambrosiafilament.com/products/ambrosia-pla-filament-of-the-gods-1kg-bambu-ams-friendly-cardboard-spools-premium-3d-printing-filament?variant=50588085027130)|[3D Filament Profiles](https://3dfilamentprofiles.com/filament/details/4468)
-|iSANGHU ASA, Emerald Wave, 1kg|ASA project (P1S)|[Amazon](https://www.amazon.com/dp/B0DCSQ6ZZM)|[iSANGHU on Amazon](https://www.amazon.com/3D-Printing-Filament-iSANGHU-Supplies/s?keywords=3D+Printing+Filament&rh=n:6066129011,p_89:iSANGHU&c=ts&ts_id=6066129011) (no official manufacturer site found)|[3D Filament Profiles](https://3dfilamentprofiles.com/defaults/isanghu/asa/basic)
+|Ambrosia PLA, Rainbow Rush, 1kg|PLA projects (A1)|[West3D](https://west3d.com/products/ambrosia-pla-filament-of-the-gods-1kg-bambu-ams-friendly-cardboard-spools-premium-3d-printing-filament?variant=46039719018708)|[Ambrosia Filament](https://ambrosiafilament.com/products/ambrosia-pla-filament-of-the-gods-1kg-bambu-ams-friendly-cardboard-spools-premium-3d-printing-filament?variant=50588085027130)|[3D Filament Profiles](https://3dfilamentprofiles.com/filament/details/4468)
+|iSANGHU ASA, Emerald Wave, 1kg|ASA project (P1S)|[Amazon](https://www.amazon.com/dp/B0DCSQ6ZZM)|[iSANGHU on Amazon](https://www.amazon.com/3D-Printing-Filament-iSANGHU-Supplies/s?keywords=3D+Printing+Filament&rh=n:6066129011,p_89:iSANGHU&c=ts&ts_id=6066129011)|[3D Filament Profiles](https://3dfilamentprofiles.com/defaults/isanghu/asa/basic)
 
 Printing tips:
 
