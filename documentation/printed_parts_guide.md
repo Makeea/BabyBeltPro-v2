@@ -51,12 +51,13 @@ The projects are set up for two printers, both with a 0.4mm nozzle and the High 
 |[BBPro_PrintBelt](../STLs/PrintBelt/BBPro_PrintBelt.3mf)|A1|PLA|1|Frame-A/B, Nut (2x), Pusher-A/B
 |[BBPro_ZBeltDrive_Rollers_PLA](../STLs/ZBeltDrive/BBPro_ZBeltDrive_Rollers_PLA.3mf)|A1|PLA|1|Rollers (2x, 5 walls, supports)
 |[BBPro_ZBeltDrive_ASA](../STLs/ZBeltDrive/BBPro_ZBeltDrive_ASA.3mf)|P1S|ASA|1|LDO heatbed underbed, Roller_ZGear, Nema17_ZGear (2x)
+|[BBPro_All_Parts_H2C](../STLs/BBPro_All_Parts_H2C.3mf)|H2C|PLA + ASA|12|Every part above in one project, one plate per group, with the material in each plate name (plate 10 is ASA, the rest PLA). Also includes the XRail spacers and two user mods (locking Y tensioner nut, angled extruder board cover). Plate 6 is empty. Uses the Textured PEI plate.
 
 Filament in the projects:
 
 - PLA projects (A1) use Ambrosia PLA: 210°C nozzle (range 190-220°C), 60°C bed, part cooling fan at Bambu's PLA default.
 - The ASA project (P1S) holds the parts the guide says should not be PLA: the Z gears (PETG or stronger) and the LDO heatbed underbed (heat tolerant). The underbed sits directly under the heater, so PETG is avoided there because it softens at around 70-80°C. The project uses iSANGHU ASA: 270°C nozzle (range 260-280°C), 100°C bed (the P1S maximum), part cooling fan 10-40%, auxiliary fan off. If you use a different ASA, select its profile in Bambu Studio before slicing.
-- A plate can only have one bed temperature, so PLA and ASA parts are kept in separate projects.
+- A plate can only have one bed temperature, so PLA and ASA parts are kept in separate projects, or on separate plates in the H2C all-parts project.
 
 Filaments used:
 
